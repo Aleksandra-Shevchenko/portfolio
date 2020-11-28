@@ -88,7 +88,8 @@
 .header__link {
   color: #fff;
   text-decoration: none;
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .header__link_active {
@@ -134,7 +135,7 @@
     border-color: transparent
   }
   50% {
-    border-color: #fff
+    border-color: #80aebd;
   }
 }
 
@@ -213,6 +214,22 @@
   border-radius: 8px;
 }
 
+.content {
+  overflow: hidden;
+}
+
+
+.content__title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 38px;
+  line-height: 48px;
+  margin: 0 0 30px 0;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
 
 .about-me {
   padding-top: 100px;
@@ -221,7 +238,7 @@
   position: relative;
 }
 
-.about-me::after {
+/* .about-me::after {
   content: '';
   display: block;
   width: 600px;
@@ -232,18 +249,36 @@
   top: 0;
   left: -50%;
   z-index: 0;
+} */
+
+.about-me::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 645px solid transparent;
+  border-top-color: #80aebd;
+  position: absolute;
+  top: 0;
+  left: -686px;
+  z-index: 0;
 }
 
-
-
-.content__title {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 38px;
-  line-height: 48px;
-  margin: 0 0 30px 0;
+.about-me::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 385px solid transparent;
+  border-top-color: #cbbc97;
+  position: absolute;
+  top: 109px;
+  left: -575px;
+  z-index: 1;
+  transform: rotate(67deg);
+  opacity: .6;
 }
+
 
 .about-me__grid {
   display: grid;
@@ -269,11 +304,13 @@
   line-height: 24px;
   padding: 0;
   margin: 0;
+  z-index: 1;
 }
 
 .about-me__education{
   z-index: 1;
 }
+
 
 .about-me__education-list {
   padding: 0;
@@ -289,14 +326,18 @@
 .about-me__education-item:before {
   padding-right: 10px;
   font-weight: bold;
-  color: #C0C0C0;
+  color: #fff;
   content: "\2714";
   transition-duration: 0.5s;
 }
 
 .about-me__education-item:hover:before {
-  color: #463636;
+  color: #323433;
   content: "\2714";
+}
+
+.about-me__education-item:hover .about-me__specialty{
+  color: #323433;
 }
 
 .about-me__specialty{
@@ -305,6 +346,11 @@
   letter-spacing: 4px;
   font-size: 18px;
   line-height: 22px;
+  transition-duration: 0.5s;
+}
+
+.about-me__specialty{
+  z-index: 1;
 }
 
 .about-me__specialty-text:first-of-type {
@@ -340,7 +386,7 @@
 }
 
 .portfolio {
-  background-color: #fff;
+  background-color: #80aebd;
   padding: 90px 100px;
   min-height: 100vh;
 }
