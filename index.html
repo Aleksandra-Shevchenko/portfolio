@@ -11,56 +11,90 @@
 
 <body>
   <div class="page">
-    <header class="header page__max">
+    <header id="header" class="header page__max">
         <h1 class="header__title">Sasha Shevchenko</h1>
         <div class="header__job">
           <p class="header__subtitle header__subtitle_type_profession typewriter">Junior frontend developer</p>
           <p class="header__subtitle header__subtitle_type_city">Saint Petersburg</p>
         </div>
-        <ul class="header__menu">
-          <li><a href="#" class="header__link">Главная</a></li>
-          <li><a href="#" class="header__link">Обо мне</a></li>
-          <li><a href="#" class="header__link">Навыки</a></li>
-          <li><a href="#" class="header__link">Портфолио</a></li>
-          <li><a href="#" class="header__link">Контакты</a></li>
-        </ul>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li><a href="#header" class="header__link">Главная</a></li>
+            <li><a href="#about-me" class="header__link">Обо мне</a></li>
+            <li><a href="#" class="header__link">Навыки</a></li>
+            <li><a href="#portfolio" class="header__link">Портфолио</a></li>
+            <li><a href="#" class="header__link">Контакты</a></li>
+          </ul>
+        </nav>
         <div class="header__photo"></div>
     </header>
 
-    <main>
-      <section class="about-me page__min">
-        <h2 class="about-me__title">Обо мне</h2>
+    <main class="content">
+      <section id="about-me" class="about-me page__min">
+        <!-- <div class="circle"></div> -->
+        <h2 class="content__title">Обо мне</h2>
         <div class="about-me__grid">
           <div class="about-me__photo-container"><img  class="about-me__photo" src="./images/image0.jpeg" alt=""></div>
           <article class="about-me__introduce">
               <p class="about-me__introduce-title">Здравствуйте!<br>
-                Меня зовут Саша.</p>
-              <p>В&nbsp;прошлом я&nbsp;&mdash; коммерческий директор в&nbsp;строительной медико-инжиниринговой отрасли, сейчас&nbsp;&mdash; начинающий Веб-разработчик.</p>
+                Давайте знакомиться, я Саша из Санкт-Петербурга.</p>
+              <p>В&nbsp;прошлом&nbsp;&mdash; коммерческий директор в&nbsp;строительной медико-инжиниринговой отрасли, сейчас&nbsp;&mdash; начинающий Веб-разработчик.</p>
               <p>В&nbsp;период самоизоляции я&nbsp;приняла решение, изменить свои жизнь и&nbsp;сменить профессию. Область программирования, для меня всегда была чем-то магическим, интересным и&nbsp;пугающим. И&nbsp;в&nbsp;свои 30&nbsp;лет, я&nbsp;начала обучение с&nbsp;нуля.</p>
-              <p>Теперь&nbsp;же, после окончания курса, я&nbsp;хочу получать опыт и&nbsp;знания на&nbsp;реальных проектах, приносить пользу и&nbsp;мечтаю стать действительно стоящим специалистом дружной команды разработчиков.</p>
+              <p>Теперь, после окончания курса, я&nbsp;хочу получать опыт и&nbsp;знания на&nbsp;реальных проектах, приносить пользу и&nbsp;мечтаю стать действительно стоящим специалистом дружной команды разработчиков.</p>
           </article>
-          <ul class="about-me__education">
+
+          <div class="about-me__education">
             <h3 class="about-me__education-title">Образование</h3>
-            <li class="about-me__education-item">
-              <span class="about-me__specialty">Веб-разработчик</span>
-              <p class="about-me__specialty-text">Факультет веб-разработки</p>
-              <p class="about-me__specialty-text">2020-2021 - Яндекс.Практикум</p>
-            </li>
-            <li class="about-me__education-item">
-              <span class="about-me__specialty">Инженер</span>
-              <p class="about-me__specialty-text">Кафедра машиностроения</p>
-              <p class="about-me__specialty-text">2011-2013 - Санкт-Петербургский горный университет</p>
-            </li>
-            <li class="about-me__education-item">
-              <span class="about-me__specialty">Инженер</span>
-              <p class="about-me__specialty-text">Кафедра приборостроения и&nbsp;систем обеспечения безопасности</p>
-              <p class="about-me__specialty-text">2011-2006 - Северо-Западный государственный технический университет</p>
-            </li>
-
-
-          </ul>
+            <ul class="about-me__education-list">
+              <li class="about-me__education-item">
+                <span class="about-me__specialty">Веб-разработчик</span>
+                <p class="about-me__specialty-text">Факультет веб-разработки</p>
+                <p class="about-me__specialty-text">2020-2021 - Яндекс.Практикум</p>
+              </li>
+              <li class="about-me__education-item">
+                <span class="about-me__specialty">Инженер</span>
+                <p class="about-me__specialty-text">Кафедра машиностроения</p>
+                <p class="about-me__specialty-text">2011-2013 - Санкт-Петербургский горный университет</p>
+              </li>
+              <li class="about-me__education-item">
+                <span class="about-me__specialty">Инженер</span>
+                <p class="about-me__specialty-text">Кафедра приборостроения и&nbsp;систем обеспечения безопасности</p>
+                <p class="about-me__specialty-text">2011-2006 - Северо-Западный государственный технический университет</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
+
+      <section class="skills">
+        <h2 class="content__title">Навыки</h2>
+        <p></p>
+      </section>
+
+      <section  id="portfolio" class="portfolio page__max">
+        <h2 class="content__title">Портфолио</h2>
+        <ul class="portfolio__grid">
+          <li class="portfolio__project portfolio__project_name_learn">
+            <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/how-to-learn">CSS-анимации</a>
+          </li>
+          <li class="portfolio__project portfolio__project_name_travel">
+            <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/russian-travel">адаптивная вёрстка</a>
+          </li>
+          <li class="portfolio__project portfolio__project_name_mesto">
+            <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/mesto">приложение на JavaScript</a>
+          </li>
+          <li class="portfolio__project portfolio__project_name_portfolio">
+            <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/mesto" target="_blank">Верстка + анимации</a>
+          </li>
+          <li class="portfolio__project portfolio__project_name_wd">
+            <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/mesto">Первые шаги в HTML и CSS</a>
+          </li>
+        </ul>
+
+
+      </section>
+
+
 
     </main>
 
