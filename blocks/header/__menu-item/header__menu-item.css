@@ -1,0 +1,7 @@
+.header__menu-item {
+  display: block;
+  padding: 0;
+  width: 100%;
+  flex-grow: 1;
+
+}

@@ -13,7 +13,7 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__photo/header__photo.css);
-
+@import url(../blocks/header/__menu-item/header__menu-item.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__title/content__title.css);
@@ -33,6 +33,7 @@
 
 
 
+
 @import url();
 @import url();
 @import url();
@@ -41,7 +42,9 @@
 @import url();
 @import url();
 @import url();
-@import url();
+
+
+
 
 
 
@@ -107,7 +110,7 @@
 
 
 .portfolio {
-  background-color: #80aebd;
+  background-color: #7395ae;
   padding: 90px 100px;
   min-height: 100vh;
 }
@@ -131,7 +134,6 @@
   height: 100%;
   object-fit: cover;
 }
-
 
 
 
@@ -179,3 +181,4 @@
 .portfolio__overlay:hover{
   opacity: 1;
 }
+

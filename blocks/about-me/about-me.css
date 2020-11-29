@@ -4,7 +4,7 @@
   padding-bottom: 80px;
   color: #fff;
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 /* .about-me::after {
@@ -26,7 +26,7 @@
   width: 0;
   height: 0;
   border: 645px solid transparent;
-  border-top-color: #80aebd;
+  border-top-color: #557A95;
   position: absolute;
   top: 0;
   left: -686px;
@@ -39,7 +39,7 @@
   width: 0;
   height: 0;
   border: 385px solid transparent;
-  border-top-color: #cbbc97;
+  border-top-color: #ceccce;
   position: absolute;
   top: 109px;
   left: -575px;
