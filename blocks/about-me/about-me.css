@@ -39,11 +39,11 @@
   width: 0;
   height: 0;
   border: 385px solid transparent;
-  border-top-color: #ceccce;
+  border-top-color: #b1a296;
   position: absolute;
   top: 109px;
   left: -575px;
   z-index: 1;
   transform: rotate(67deg);
-  opacity: .6;
+  opacity: .5;
 }

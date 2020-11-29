@@ -1,5 +1,5 @@
 .header__photo {
-  grid-row: 1 / 4;
+  grid-row: 1 / 5;
   grid-column: 1 / 5;
   z-index: 0;
   display: block;
@@ -16,7 +16,7 @@
 .header__photo::after {
   content: '';
   background-color: #323433;
-  opacity: .5;
+  opacity: .6;
   position: absolute;
   top: 0;
   left: 0;

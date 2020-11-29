@@ -12,10 +12,10 @@
 }
 
 .about-me__education-item:hover:before {
-  color: #323433;
+  color: #5d5c61;
   content: "\2714";
 }
 
 .about-me__education-item:hover .about-me__specialty{
-  color: #323433;
+  color: #5d5c61;
 }

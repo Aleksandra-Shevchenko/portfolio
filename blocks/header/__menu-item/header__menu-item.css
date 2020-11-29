@@ -2,6 +2,12 @@
   display: block;
   padding: 0;
   width: 100%;
+  height: 100%;
   flex-grow: 1;
-
+  border-left: 2px solid #fff;
 }
+
+.header__menu-item:first-child {
+  border-left: none;
+}
+

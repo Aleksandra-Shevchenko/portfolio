@@ -3,13 +3,14 @@
   grid-column: 2 / 3;
   z-index: 1;
   align-self: start;
-  justify-self: end;
+  justify-self: start;
   font-size: 22px;
   line-height: 26px;
   margin: 0;
   overflow: hidden;
   width: 0%;
   letter-spacing: 4px;
+  padding-left: 120px;
 }
 
 
