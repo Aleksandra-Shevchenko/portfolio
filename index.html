@@ -67,9 +67,9 @@
         <p></p>
       </section>
 
-      <section  id="portfolio" class="portfolio page__max">
+      <section  id="portfolio" class="portfolio page__min">
         <h2 class="content__title">Портфолио</h2>
-        <ul class="portfolio__grid">
+        <!-- <ul class="portfolio__grid">
           <li class="portfolio__project portfolio__project_name_learn">
             <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/how-to-learn">CSS-анимации</a>
           </li>
@@ -85,7 +85,26 @@
           <li class="portfolio__project portfolio__project_name_wd">
             <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/mesto">Первые шаги в HTML и CSS</a>
           </li>
-        </ul>
+        </ul> -->
+        <div class="slider-container">
+          <div class="swiper-container">
+            <button class="swiper-button-prev"></button>
+            <button class="swiper-button-next"></button>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card">Slide 1
+                <img class="image" src="./images/how-to-study.png" alt="">
+                <a class="portfolio__overlay" href="https://github.com/Aleksandra-Shevchenko/how-to-learn">CSS-анимации</a>
+              </div>
+              <div class="swiper-slide card">Slide 2</div>
+              <div class="swiper-slide card">Slide 3</div>
+              <div class="swiper-slide card">Slide 4</div>
+              <div class="swiper-slide card">Slide 5</div>
+              <div class="swiper-slide card">Slide 6</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
 
 
       </section>
@@ -95,6 +114,9 @@
     </main>
 
   </div>
+  <script src="./scripts/slider/swiper-bundle.min.js"></script>
+  <script src="./scripts/slider/swiper-bundle.js"></script>
+  <script src="./scripts/slider/slider.js"></script>
 
 </body>
 </html>
