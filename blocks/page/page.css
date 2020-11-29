@@ -1,0 +1,12 @@
+.page {
+  background: #a9bcc2;
+  color: #070707;
+  font-family: 'GT-Walsheim', 'Arial', sans-serif;
+  font-weight: normal;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* max-width: 1400px; */
+  min-width: 320px;
+  min-height: 100vh;
+}

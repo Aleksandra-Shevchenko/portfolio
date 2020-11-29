@@ -1,0 +1,6 @@
+.about-me__grid {
+  display: grid;
+  grid-template-columns: 100px 1fr 35%;
+  gap: 32px;
+  z-index: 1;
+}

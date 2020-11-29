@@ -1,0 +1,26 @@
+.header__photo {
+  grid-row: 1 / 4;
+  grid-column: 1 / 5;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  /* height: 80%; */
+  background-image: url(../../../images/IMG_8254.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 8px;
+}
+
+.header__photo::after {
+  content: '';
+  background-color: #323433;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+}

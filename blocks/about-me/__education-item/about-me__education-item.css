@@ -1,0 +1,21 @@
+.about-me__education-item {
+  /* padding: 6px; */
+  margin-bottom: 28px;
+}
+
+.about-me__education-item:before {
+  padding-right: 10px;
+  font-weight: bold;
+  color: #fff;
+  content: "\2714";
+  transition-duration: 0.5s;
+}
+
+.about-me__education-item:hover:before {
+  color: #323433;
+  content: "\2714";
+}
+
+.about-me__education-item:hover .about-me__specialty{
+  color: #323433;
+}

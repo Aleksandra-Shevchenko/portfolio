@@ -1,0 +1,27 @@
+.header__subtitle {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  z-index: 1;
+  align-self: start;
+  justify-self: end;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0;
+  overflow: hidden;
+  width: 0%;
+  letter-spacing: 4px;
+}
+
+
+.header__subtitle::before{
+  content: '<p> ';
+  animation: flashing 3s ease 3s infinite both;
+  letter-spacing: 1px;
+}
+
+.header__subtitle::after{
+  content: ' </p>';
+  animation: flashing 3s ease  3s infinite both;
+  letter-spacing: 1px;
+}
+

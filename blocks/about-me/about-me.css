@@ -1,0 +1,49 @@
+.about-me {
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* .about-me::after {
+  content: '';
+  display: block;
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  background-color: #80aebd;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  z-index: 0;
+} */
+
+.about-me::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 645px solid transparent;
+  border-top-color: #80aebd;
+  position: absolute;
+  top: 0;
+  left: -686px;
+  z-index: 0;
+}
+
+.about-me::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 385px solid transparent;
+  border-top-color: #cbbc97;
+  position: absolute;
+  top: 109px;
+  left: -575px;
+  z-index: 1;
+  transform: rotate(67deg);
+  opacity: .6;
+}
