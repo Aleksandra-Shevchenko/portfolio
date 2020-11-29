@@ -10,11 +10,8 @@
   grid-row: 3 / 4;
   grid-column: 2 / 4;
   z-index: 2;
-  border: 2px solid #fff;
   box-sizing: border-box;
   max-width: 70%;
   min-width: max-content;
   justify-self: center;
-
-  /* background-color:rgba(0, 0, 0, .4); */
 }
