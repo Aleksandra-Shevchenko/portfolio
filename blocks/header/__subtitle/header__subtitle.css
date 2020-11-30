@@ -14,15 +14,10 @@
 }
 
 
-.header__subtitle::before{
+.header__subtitle::before,
+.header__subtitle::after {
   content: '<p> ';
-  animation: flashing 3s ease 3s infinite both;
-  letter-spacing: 1px;
-}
-
-.header__subtitle::after{
-  content: ' </p>';
-  animation: flashing 3s ease  3s infinite both;
+  animation: flashing 3s ease 6s infinite both;
   letter-spacing: 1px;
 }
 
