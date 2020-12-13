@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,31 +13,35 @@
 <body>
   <div class="page">
     <header id="header" class="header page__max">
-        <h1 class="header__title">Sasha Shevchenko</h1>
-        <p class="header__subtitle typewriter">Junior frontend developer</p>
-        <nav class="header__menu">
-          <ul class="header__menu-list">
-            <li class="header__menu-item"><a href="#header" class="header__link">Главная</a></li>
-            <li class="header__menu-item"><a href="#about-me" class="header__link">Обо мне</a></li>
-            <li class="header__menu-item"><a href="#" class="header__link">Навыки</a></li>
-            <li class="header__menu-item"><a href="#portfolio" class="header__link">Портфолио</a></li>
-            <li class="header__menu-item"><a href="#" class="header__link">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="header__photo"></div>
+      <h1 class="header__title">Sasha Shevchenko</h1>
+      <p class="header__subtitle typewriter">Junior frontend developer</p>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item"><a href="#header" class="header__link">Главная</a></li>
+          <li class="header__menu-item"><a href="#about-me" class="header__link">Обо мне</a></li>
+          <li class="header__menu-item"><a href="#" class="header__link">Навыки</a></li>
+          <li class="header__menu-item"><a href="#portfolio" class="header__link">Портфолио</a></li>
+          <li class="header__menu-item"><a href="#" class="header__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__photo"></div>
     </header>
 
     <main class="content">
       <section id="about-me" class="about-me page__min">
         <h2 class="content__title">Обо мне</h2>
         <div class="about-me__grid">
-          <div class="about-me__photo-container"><img  class="about-me__photo" src="./images/image0.jpeg" alt=""></div>
+          <div class="about-me__photo-container"><img class="about-me__photo" src="./images/image0.jpeg" alt=""></div>
           <article class="about-me__introduce">
-              <p class="about-me__introduce-title">Здравствуйте!<br>
-                Давайте знакомиться, я Саша из Санкт-Петербурга.</p>
-              <p>В&nbsp;прошлом&nbsp;&mdash; коммерческий директор в&nbsp;строительной медико-инжиниринговой отрасли, сейчас&nbsp;&mdash; начинающий Веб-разработчик.</p>
-              <p>В&nbsp;период самоизоляции я&nbsp;приняла решение, изменить свою жизнь и&nbsp;сменить профессию. Область программирования, для меня всегда была чем-то магическим, интересным и&nbsp;пугающим. И&nbsp;в&nbsp;свои 30&nbsp;лет, я&nbsp;начала обучение с&nbsp;нуля.</p>
-              <p>Теперь, после окончания курса, я&nbsp;хочу получать опыт и&nbsp;знания на&nbsp;реальных проектах, приносить пользу и&nbsp;мечтаю стать действительно стоящим специалистом дружной команды разработчиков.</p>
+            <p class="about-me__introduce-title">Здравствуйте!<br>
+              Давайте знакомиться, я Саша из Санкт-Петербурга.</p>
+            <p>В&nbsp;прошлом&nbsp;&mdash; коммерческий директор в&nbsp;строительной медико-инжиниринговой отрасли,
+              сейчас&nbsp;&mdash; начинающий Веб-разработчик.</p>
+            <p>В&nbsp;период самоизоляции я&nbsp;приняла решение, изменить свою жизнь и&nbsp;сменить профессию. Область
+              программирования, для меня всегда была чем-то магическим, интересным и&nbsp;пугающим. И&nbsp;в&nbsp;свои
+              30&nbsp;лет, я&nbsp;начала обучение с&nbsp;нуля.</p>
+            <p>Теперь, после окончания курса, я&nbsp;хочу получать опыт и&nbsp;знания на&nbsp;реальных проектах,
+              приносить пользу и&nbsp;мечтаю стать действительно стоящим специалистом дружной команды разработчиков.</p>
           </article>
 
           <div class="about-me__education">
@@ -55,7 +60,8 @@
               <li class="about-me__education-item">
                 <span class="about-me__specialty">Инженер</span>
                 <p class="about-me__specialty-text">Кафедра приборостроения и&nbsp;систем обеспечения безопасности</p>
-                <p class="about-me__specialty-text">2011-2006 - Северо-Западный государственный технический университет</p>
+                <p class="about-me__specialty-text">2011-2006 - Северо-Западный государственный технический университет
+                </p>
               </li>
             </ul>
           </div>
@@ -67,7 +73,7 @@
         <p></p>
       </section>
 
-      <section  id="portfolio" class="portfolio page__max">
+      <section id="portfolio" class="portfolio page__max">
         <h2 class="content__title">Портфолио</h2>
         <div class="slider-container">
           <button class="swiper-button-prev"></button>
@@ -76,23 +82,33 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide card">Slide 1
                 <img class="image" src="./images/how-to-study.png" alt="">
-                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/how-to-learn" target="_blank">CSS-анимации</a>
+                <div class="potfolio-overlay">
+                  <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/how-to-learn"
+                  target="_blank">CSS-анимации</a>
+                  <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/how-to-learn"
+                  target="_blank">CSS-анимации</a>
+                </div>
+
               </div>
               <div class="swiper-slide card">Slide 2
                 <img class="image" src="./images/across-russia.png" alt="">
-                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/russian-travel" target="_blank">адаптивная вёрстка</a>
+                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/russian-travel"
+                  target="_blank">адаптивная вёрстка</a>
               </div>
               <div class="swiper-slide card">Slide 3
                 <img class="image" src="./images/mesto.png" alt="">
-                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/mesto" target="_blank">приложение на JavaScript</a>
+                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/mesto"
+                  target="_blank">приложение на JavaScript</a>
               </div>
               <div class="swiper-slide card">Slide 4
                 <img class="image" src="./images/wd1.jpg" alt="">
-                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/mesto" target="_blank">Первые шаги в HTML и CSS</a>
+                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/mesto" target="_blank">Первые
+                  шаги в HTML и CSS</a>
               </div>
               <div class="swiper-slide card">Slide 5
                 <img class="image" src="./images/portfolio.jpg" alt="">
-                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/mesto" target="_blank">Верстка + анимации</a>
+                <a class="portfolio__link" href="https://github.com/Aleksandra-Shevchenko/mesto" target="_blank">Верстка
+                  + анимации</a>
               </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -113,4 +129,5 @@
   <script src="./scripts/slider/slider.js"></script>
 
 </body>
+
 </html>
