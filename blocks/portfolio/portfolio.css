@@ -1,8 +1,25 @@
 .portfolio {
-  background-color: #80aebd;
-  padding: 90px 100px;
-  min-height: 100vh;
+  /* background-color: #7395ae; */
+  /* background-color: #ceccce; */
+  /* background-color: rgba(75, 67, 69, .6); */
+  padding: 60px 20px 100px;
+  /* min-height: 100vh; */
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
+
+/* .portfolio::before {
+  content: '';
+  display: block;
+  width: 70%;
+  height: 43px;
+  position: absolute;
+  background-color:  rgba(75, 67, 69, .6);
+  top: -43px;
+  left: -229px;
+  z-index: -1;
+} */
 
 
 .portfolio__grid {

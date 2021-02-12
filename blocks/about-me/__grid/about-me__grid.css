@@ -1,6 +1,23 @@
 .about-me__grid {
   display: grid;
-  grid-template-columns: 100px 1fr 35%;
-  gap: 32px;
+  /* grid-template-columns: 100px 1fr 35%; */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 70px;
+  row-gap: 40px;
+  position: relative;
   z-index: 1;
+}
+
+.about-me__grid::before {
+  content: '';
+  display: block;
+  width: 74%;
+  height: 200px;
+  position: absolute;
+  /* background-color: #d70026; */
+  background-color: #4b4345;
+  top: 102px;
+  left: -250px;
+  z-index: -1;
+  opacity: .6;
 }

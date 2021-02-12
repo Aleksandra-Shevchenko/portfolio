@@ -1,6 +1,6 @@
 .about-me {
   box-sizing: border-box;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 80px;
   color: #fff;
   position: relative;
@@ -20,6 +20,20 @@
   z-index: 0;
 } */
 
+/* .about-me::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 645px solid transparent;
+  border-top-color: #557a95;
+  position: absolute;
+  top: 0;
+  left: -686px;
+  z-index: 0;
+  opacity: .9;
+} */
+/*
 .about-me::after {
   content: '';
   display: block;
@@ -32,9 +46,9 @@
   left: -686px;
   z-index: 0;
   opacity: .9;
-}
+} */
 
-.about-me::before {
+/* .about-me::before {
   content: '';
   display: block;
   width: 0;
@@ -47,4 +61,17 @@
   z-index: 1;
   transform: rotate(67deg);
   opacity: .5;
-}
+} */
+
+/* .about-me::before {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: #fff;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  opacity: .5;
+} */
