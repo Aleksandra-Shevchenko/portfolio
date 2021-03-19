@@ -207,9 +207,10 @@
 
 .portfolio__title {
   color: #fff;
-  /* background-color: rgba(215, 0, 38, .7); */
-  background-color: #80aebd;
-  /* background-color: rgba(56, 58, 61, 0.6); */
+  /* background-color: rgba(215, 0, 38, .8); */
+  background-color: #bc3555;
+  /* background-color: #80aebd; */
+  /* background-color: rgba(56, 58, 61, 0.9); */
   position: relative;
   z-index: 3;
   font-family: 'Bebas-Neue';
