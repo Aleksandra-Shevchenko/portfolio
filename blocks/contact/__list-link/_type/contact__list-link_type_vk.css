@@ -1,0 +1,8 @@
+
+.contact__list-link_type_vk {
+  background-image: url(../../../../images/vk.svg);
+}
+
+.contact__list-link_type_vk:hover {
+  background-image: url(../../../../images/vk-act.svg);
+}

@@ -21,7 +21,7 @@
           <li class="header__menu-item"><a href="#about-me" class="header__link">Обо мне</a></li>
           <li class="header__menu-item"><a href="#" class="header__link">Навыки</a></li>
           <li class="header__menu-item"><a href="#portfolio" class="header__link">Портфолио</a></li>
-          <li class="header__menu-item"><a href="#" class="header__link">Контакты</a></li>
+          <li class="header__menu-item"><a href="#contact" class="header__link">Контакты</a></li>
         </ul>
       </nav>
       <div class="header__photo"></div>
@@ -37,10 +37,9 @@
               Давайте знакомиться, я Саша из Санкт-Петербурга.</p>
             <p>В&nbsp;прошлом&nbsp;&mdash; коммерческий директор в&nbsp;строительной медико-инжиниринговой отрасли,
               сейчас&nbsp;&mdash; начинающий Веб-разработчик.</p>
-            <p>В&nbsp;период самоизоляции я&nbsp;приняла решение, изменить свою жизнь и&nbsp;сменить профессию. Область
-              программирования, для меня всегда была чем-то магическим, интересным и&nbsp;пугающим. И&nbsp;в&nbsp;свои 30&nbsp;лет, я&nbsp;начала обучение с&nbsp;нуля.</p>
-            <p>Теперь, после окончания курса, я&nbsp;хочу получать опыт и&nbsp;знания на&nbsp;реальных проектах,
-              приносить пользу и&nbsp;мечтаю стать действительно стоящим специалистом дружной команды разработчиков.</p>
+            <p>В&nbsp;период самоизоляции я&nbsp;приняла решение, изменить свою жизнь и&nbsp;сменить профессию. И&nbsp;в&nbsp;свои 30&nbsp;лет, я&nbsp;начала обучение с&nbsp;нуля. Область
+              программирования, привлекла меня необходимостью бесконечного обучения и поиском решений современных задач напрямую влияющих на качество жизни людей.</p>
+            <p>Теперь, после окончания курса, я&nbsp;хочу приносить пользу, получать опыт и&nbsp;знания на&nbsp;реальных проектах. Мечтаю стать действительно стоящим специалистом дружной команды разработчиков.</p>
           </article>
 
           <div class="about-me__education">
@@ -67,7 +66,7 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <h2 class="content__title">Навыки</h2>
         <p></p>
       </section>
@@ -132,7 +131,7 @@
               </div>
 
               <div class="slider__slide">
-                <h3 class="slider__title">Верстка и слайдер на JS</h3>
+                <h3 class="slider__title">Верстка и Swiper-JS</h3>
                 <img class="slider__pic" src="./images/portfolio.jpg" alt="">
                 <div class="slider__overlay">
                   <a class="slider__link header__link" href="#" target="_blank">GitHub repo</a>
@@ -165,8 +164,47 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
+      </section>
 
-
+      <section id="contact" class="contact">
+        <h2 class="content__title">Контакты</h2>
+        <div class="contact__card">
+          <p class="contact__name">Александра Шевченко</p>
+          <div class="contact__box">
+            <div class="contact__group">
+              <img class="contact__pic" src="./images/call.svg" alt="">
+              <p class="contact__text">+7 981 125 13 54</p>
+            </div>
+            <div class="contact__group">
+              <img class="contact__pic" src="./images/mail.svg" alt="">
+              <p class="contact__text">
+                <a class="contact__link" href="mailto:dorosh.ag@gmail.com">dorosh.ag@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <ul class="contact__list">
+            <li class="contact__list-item">
+              <a href="https://github.com/Aleksandra-Shevchenko" class="contact__list-link contact__list-link_type_github" target="_blank">
+              </a>
+            </li>
+            <li class="contact__list-item">
+              <a href="https://wa.me/79811251354" class="contact__list-link contact__list-link_type_whatsapp"  target="_blank">
+              </a>
+            </li>
+            <li class="contact__list-item">
+              <a href="http://t.me/new_sasha"  class="contact__list-link contact__list-link_type_telegram" target="_blank">
+              </a>
+            </li>
+            <li class="contact__list-item">
+              <a href="https://vk.com/dorosh_ag" class="contact__list-link contact__list-link_type_vk" target="_blank">
+              </a>
+            </li>
+            <li class="contact__list-item">
+              <a href="https://www.instagram.com/sasha_new" class="contact__list-link contact__list-link_type_instagram" target="_blank">
+              </a>
+            </li>
+          </ul>
+        </div>
 
       </section>
 

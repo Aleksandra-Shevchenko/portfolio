@@ -1,0 +1,9 @@
+.contact__name {
+  font-family: 'GT-Walsheim';
+  font-weight: medium;
+  font-size: 30px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}

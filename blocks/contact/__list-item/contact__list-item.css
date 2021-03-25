@@ -1,0 +1,7 @@
+.contact__list-item {
+  margin-right: 28px;
+}
+
+.contact__list-item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,9 @@
+.contact__link {
+  text-decoration: none;
+  color: #5f6366;
+  transition: color .3s linear;
+}
+
+.contact__link:hover {
+  color: #d82847;
+}

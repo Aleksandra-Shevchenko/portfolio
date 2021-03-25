@@ -3,23 +3,23 @@
 @import url(../slider/swiper-bundle.css);
 @import url(../slider/swiper-bundle.min.css);
 
-
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__min/page__min.css);
 @import url(../blocks/page/__max/page__max.css);
+@import url(../blocks/page/__accent/page__accent.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-list/header__menu-list.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_active/header__link_active.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__photo/header__photo.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__title/content__title.css);
-
 
 @import url(../blocks/about-me/about-me.css);
 @import url(../blocks/about-me/__specialty/about-me__specialty.css);
@@ -33,29 +33,31 @@
 @import url(../blocks/about-me/__education-title/about-me__education-title.css);
 @import url(../blocks/about-me/__introduce-title/about-me__introduce-title.css);
 
-
-
-
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../slider/slider-custom.css);
 
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
-@import url();
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__card/contact__card.css);
+@import url(../blocks/contact/__name/contact__name.css);
+@import url(../blocks/contact/__box/contact__box.css);
+@import url(../blocks/contact/__group/contact__group.css);
+@import url(../blocks/contact/__text/contact__text.css);
+@import url(../blocks/contact/__pic/contact__pic.css);
+@import url(../blocks/contact/__link/contact__link.css);
+@import url(../blocks/contact/__list/contact__list.css);
+@import url(../blocks/contact/__list-item/contact__list-item.css);
+@import url(../blocks/contact/__list-link/contact__list-link.css);
+@import url(../blocks/contact/__list-link/_type/contact__list-link_type_github.css);
+@import url(../blocks/contact/__list-link/_type/contact__list-link_type_whatsapp.css);
+@import url(../blocks/contact/__list-link/_type/contact__list-link_type_telegram.css);
+@import url(../blocks/contact/__list-link/_type/contact__list-link_type_vk.css);
+@import url(../blocks/contact/__list-link/_type/contact__list-link_type_instagram.css);
 
-
-
-.page__accent{
-  /* color: #d70026; */
-  color: rgba(215, 0, 38, .8);;
-  /* font-size: 60px; */
-}
-
-
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
 
 
 
@@ -72,14 +74,6 @@
     opacity: 0;
   }
 }
-
-
-.header__link_active {
-  color:  #070707;
-}
-
-
-
 
 .typewriter {
   border-right: .17em solid #fff;
@@ -108,7 +102,7 @@
   }
 }
 
-
 .skills {
   display: none;
 }
+

@@ -1,0 +1,7 @@
+.contact__list-link_type_whatsapp {
+  background-image: url(../../../../images/whatsapp.svg);
+}
+
+.contact__list-link_type_whatsapp:hover {
+  background-image: url(../../../../images/whatsapp-act.svg);
+}

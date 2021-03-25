@@ -1,0 +1,10 @@
+.contact__list-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  transition: background-image .3s linear;
+}

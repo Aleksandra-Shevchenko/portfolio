@@ -1,0 +1,7 @@
+.contact__list-link_type_instagram {
+  background-image: url(../../../../images/instagram.svg);
+}
+
+.contact__list-link_type_instagram:hover {
+  background-image: url(../../../../images/instagram-act.svg);
+}

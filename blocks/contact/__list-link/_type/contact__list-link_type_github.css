@@ -1,0 +1,8 @@
+
+.contact__list-link_type_github {
+  background-image: url(../../../../images/github.svg);
+}
+
+.contact__list-link_type_github:hover {
+  background-image: url(../../../../images/github-act.svg);
+}

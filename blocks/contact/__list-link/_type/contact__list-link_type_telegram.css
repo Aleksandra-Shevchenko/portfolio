@@ -1,0 +1,7 @@
+.contact__list-link_type_telegram {
+  background-image: url(../../../../images/telegram.svg);
+}
+
+.contact__list-link_type_telegram:hover {
+  background-image: url(../../../../images/telegram-act.svg);
+}
