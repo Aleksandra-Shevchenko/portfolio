@@ -5,7 +5,8 @@
 -----
 
 # "Сайт-визитка"
-[**Portfolio**](https://aleksandra-shevchenko.github.io/portfolio) (открыть проект в браузере)
+[**Portfolio**](https://aleksandra-shevchenko.github.io/portfolio) (открыть проект в браузере)  
+`проект в разработке`
  
 ## Описание проекта
 данный проект представляет собой langing-page, которая рассказывает обо мне, образовании и проектах.
